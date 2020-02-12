@@ -73,6 +73,7 @@ public class JEditTextArea extends TextArea
 		this.view = view;
 		setRightClickPopupEnabled(true);
 		painter.setLineExtraSpacing(jEdit.getIntegerProperty("options.textarea.lineSpacing", 0));
+		
 		new PageBreakExtension(this);
 		EditBus.addToBus(this);
 	} //}}}

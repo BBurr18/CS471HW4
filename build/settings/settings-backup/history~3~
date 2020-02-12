@@ -1,0 +1,11 @@
+[vfs.browser.path]
+/Users/brandonburr/Desktop
+/Users/brandonburr/Desktop/jEdit
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+backspace
+select-next-paragraph
+select-next-word
+undo
+open-file

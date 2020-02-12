@@ -6291,6 +6291,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 				int charHeight = getPainter().getLineHeight();
 				GenericGUIUtilities.showPopupMenu(popup,
 					painter,caretPos.x,caretPos.y + charHeight,true);
+					//Brandon
 			}
 		}
 	} //}}}

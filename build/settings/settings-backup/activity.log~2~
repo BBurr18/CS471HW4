@@ -1,0 +1,515 @@
+Log file created on Tue Feb 11 19:37:52 MST 2020
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+7:37:49 PM [main] [message] Log: When reporting bugs, please include the following information:
+7:37:49 PM [main] [message] Log: java.version=1.8.0_144
+7:37:49 PM [main] [message] Log: java.vm.version=25.144-b01
+7:37:49 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+7:37:49 PM [main] [message] Log: java.runtime.version=1.8.0_144-b01
+7:37:49 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+7:37:49 PM [main] [message] Log: java.vendor=Oracle Corporation
+7:37:49 PM [main] [message] Log: java.compiler=null
+7:37:49 PM [main] [message] Log: os.name=Mac OS X
+7:37:49 PM [main] [message] Log: os.version=10.14.6
+7:37:49 PM [main] [message] Log: os.arch=x86_64
+7:37:49 PM [main] [message] Log: user.home=/Users/brandonburr
+7:37:49 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+7:37:49 PM [main] [message] Log: java.class.path=/Users/brandonburr/Desktop/jEdit/build/jedit.jar
+7:37:49 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/brandonburr/Desktop/jEdit/build/settings
+7:37:49 PM [main] [debug] jEdit: before splash screen activation:67 ms
+7:37:52 PM [main] [debug] jEdit: after splash screen activation:3164 ms
+7:37:52 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/activity.log" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/activity.log~1~"
+7:37:52 PM [main] [notice] jEdit: jEdit version 5.5.0
+7:37:52 PM [main] [message] jEdit: Settings directory is /Users/brandonburr/Desktop/jEdit/build/settings
+7:37:52 PM [main] [message] jEdit: jEdit home directory is /Users/brandonburr/Desktop/jEdit/build
+7:37:52 PM [main] [debug] SplashScreen: init:90/2661ms
+7:37:52 PM [main] [debug] SplashScreen: init system properties:23/2684ms
+7:37:52 PM [main] [message] BeanShell: Beanshell Init
+7:37:52 PM [main] [debug] SplashScreen: init beanshell:42/2726ms
+7:37:52 PM [main] [debug] SplashScreen: loading site properties:3/2729ms
+7:37:52 PM [main] [debug] SplashScreen: loading user properties:4/2733ms
+7:37:52 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+7:37:52 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+7:37:52 PM [main] [debug] SplashScreen: init GUI:3/2736ms
+7:37:53 PM [main] [debug] EditServer: jEdit server started on port 63241
+7:37:53 PM [main] [debug] EditServer: Authorization key is 1276858018
+7:37:53 PM [main] [debug] SplashScreen: init server:45/2781ms
+7:37:53 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:37:53 PM [main] [debug] SplashScreen: init look and feel:5/2786ms
+7:37:53 PM [main] [debug] SplashScreen: init VFS Manager:1/2787ms
+7:37:53 PM [main] [debug] ActionSet: Loading actions from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+7:37:53 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+7:37:53 PM [main] [debug] SplashScreen: init resources:84/2871ms
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+7:37:53 PM [main] [debug] SplashScreen: Migrate keymaps:41/2912ms
+7:37:53 PM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/jars
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:37:53 PM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/settings/jars
+7:37:53 PM [main] [debug] SplashScreen: init plugins:13/2925ms
+7:37:53 PM [main] [message] HistoryModel: Loading history
+7:37:53 PM [main] [debug] SplashScreen: init history model:4/2929ms
+7:37:53 PM [main] [message] BufferHistory: Loading /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+7:37:53 PM [main] [debug] SplashScreen: init buffer history:6/2935ms
+7:37:53 PM [main] [message] KillRing: Loading /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+7:37:53 PM [main] [debug] SplashScreen: init killring:11/2946ms
+7:37:53 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:37:53 PM [main] [debug] jEdit: SOCKS proxy disabled
+7:37:53 PM [main] [debug] jEdit: HTTP proxy disabled
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+7:37:53 PM [main] [debug] SplashScreen: init various properties:91/3037ms
+7:37:53 PM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/modes/catalog
+7:37:53 PM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/settings/modes/catalog
+7:37:53 PM [main] [debug] SplashScreen: init modes:58/3095ms
+7:37:53 PM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
+7:37:53 PM [main] [debug] PluginJAR: Opening /Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar
+7:37:53 PM [main] [debug] SplashScreen: activate plugins:11/3106ms
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:37:53 PM [main] [debug] Macros: Registered beanshell macro handler
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:37:53 PM [main] [debug] SplashScreen: init macros:20/3126ms
+7:37:53 PM [main] [message] BeanShell: Running script /Users/brandonburr/Desktop/jEdit/build/startup/startup.bsh
+7:37:53 PM [main] [notice] jEdit$5: Loading edit mode /Users/brandonburr/Desktop/jEdit/build/modes/text.xml
+7:37:53 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+7:37:53 PM [main] [debug] SplashScreen: run startup scripts:170/3296ms
+7:37:53 PM [main] [debug] SplashScreen: run startup scripts:4/3300ms
+7:37:53 PM [main] [debug] SplashScreen: run startup scripts:6/3302ms
+7:37:53 PM [main] [debug] jEdit: main done:3916 ms
+7:37:53 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:37:53 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:37:53 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:37:53 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:37:53 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:37:53 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674 addBufferAt(Untitled-1 (~/Desktop/jEdit/),0)
+7:37:53 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674 addBufferAt(Untitled-1 (~/Desktop/jEdit/),1)
+7:37:54 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:37:54 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+7:37:54 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 4698 ms
+7:37:54 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:37:54 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+7:37:56 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:37:56 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:37:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:37:58 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:37:59 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:37:59 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:38:00 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:38:00 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:38:01 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:38:23 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:38:23 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "/Users/brandonburr/Desktop/jEdit/Untitled-1" to "/Users/brandonburr/Desktop/jEdit/#Untitled-1#"
+7:44:21 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:44:21 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:44:21 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:44:23 PM [jEdit Worker #1] [debug] MiscUtilities: Saving autosave of file "/Users/brandonburr/Desktop/jEdit/Untitled-1" to "/Users/brandonburr/Desktop/jEdit/#Untitled-1#"
+7:44:53 PM [jEdit Worker #2] [debug] MiscUtilities: Saving autosave of file "/Users/brandonburr/Desktop/jEdit/Untitled-1" to "/Users/brandonburr/Desktop/jEdit/#Untitled-1#"
+7:45:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:45:44 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:48:08 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:48:08 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:48:09 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:48:12 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:48:16 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:48:23 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/brandonburr/Desktop/jEdit/Untitled-1" to "/Users/brandonburr/Desktop/jEdit/#Untitled-1#"
+7:49:06 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:49:06 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:02 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:02 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+7:53:03 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:53:03 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:53:03 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:03 PM [AWT-EventQueue-0] [debug] BufferSet: 1243664674: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:03 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/jEdit/) is in no bufferSet anymore, closing it
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:03 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+7:53:03 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/history" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/history~1~"
+7:53:03 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+7:53:03 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+7:53:03 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+7:53:03 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+7:53:03 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=63334,localport=63241]: connected
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=63334,localport=63241]: authenticated successfully
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: parent = "/Users/brandonburr/Desktop/jEdit";
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: args = new String[1];
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: args[0] = null;
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: view = jEdit.getLastView();
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: if(buffer != null && false) {
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: }
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: }
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer: if(doNotCloseSocket == void)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [debug] EditServer:  socket.close();
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer: java.lang.IllegalArgumentException: MALFORMED
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipCoder.toString(ZipCoder.java:58)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipFile.getZipEntry(ZipFile.java:583)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:539)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:514)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:495)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:1005)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1138)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1050)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at sun.misc.URLClassPath.getResource(URLClassPath.java:239)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.net.URLClassLoader$1.run(URLClassLoader.java:365)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:335)
+7:53:21 PM [jEdit server daemon [/Users/brandonburr/Desktop/jEdit/build/settings/server]] [error] EditServer:  at org.gjt.sp.jedit.EditServer.run(EditServer.java:147)
+7:53:29 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities: Error while opening perspective.dtd:
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities: java.lang.IllegalArgumentException: MALFORMED
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipCoder.toString(ZipCoder.java:58)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile.getZipEntry(ZipFile.java:583)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:539)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:514)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:495)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:1005)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1138)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1050)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.findResource(URLClassPath.java:1020)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath.findResource(URLClassPath.java:215)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader$2.run(URLClassLoader.java:569)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader$2.run(URLClassLoader.java:567)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader.findResource(URLClassLoader.java:566)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.lang.ClassLoader.getResource(ClassLoader.java:1096)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader.getResourceAsStream(URLClassLoader.java:232)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.lang.Class.getResourceAsStream(Class.java:2223)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.util.XMLUtilities.findEntity(XMLUtilities.java:180)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.PerspectiveManager$PerspectiveHandler.resolveEntity(PerspectiveManager.java:282)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.util.EntityResolverWrapper.resolveEntity(EntityResolverWrapper.java:110)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntityAsPerStax(XMLEntityManager.java:997)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1151)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1045)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:959)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.util.XMLUtilities.parseXML(XMLUtilities.java:140)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.SettingsXML.load(SettingsXML.java:155)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.PerspectiveManager.loadPerspective(PerspectiveManager.java:104)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:210)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.gui.tray.JEditSwingTrayIcon$MyMouseAdapter.mouseClicked(JEditSwingTrayIcon.java:115)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.processMouseEvent(TrayIcon.java:757)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.processEvent(TrayIcon.java:731)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.dispatchEvent(TrayIcon.java:722)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:763)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:53:29 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager: java.io.FileNotFoundException: /Users/brandonburr/Desktop/jEdit/perspective.dtd (No such file or directory)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.open0(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1304)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1270)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:264)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1161)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1045)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:959)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.util.XMLUtilities.parseXML(XMLUtilities.java:140)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.SettingsXML.load(SettingsXML.java:155)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.PerspectiveManager.loadPerspective(PerspectiveManager.java:104)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:210)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.gui.tray.JEditSwingTrayIcon$MyMouseAdapter.mouseClicked(JEditSwingTrayIcon.java:115)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.processMouseEvent(TrayIcon.java:757)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.processEvent(TrayIcon.java:731)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.dispatchEvent(TrayIcon.java:722)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:763)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:53:29 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:29 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:53:29 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:53:29 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:53:29 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:53:30 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:30 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:30 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:30 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+7:53:31 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:31 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:48 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:48 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+7:53:49 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:53:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:53:49 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:49 PM [AWT-EventQueue-0] [debug] BufferSet: 272704696: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:49 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/jEdit/) is in no bufferSet anymore, closing it
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:49 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+7:53:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+7:53:49 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+7:53:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+7:53:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
+7:53:50 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities: Error while opening perspective.dtd:
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities: java.lang.IllegalArgumentException: MALFORMED
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipCoder.toString(ZipCoder.java:58)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile.getZipEntry(ZipFile.java:583)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile.access$900(ZipFile.java:60)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:539)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:514)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:495)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.validIndex(URLClassPath.java:1005)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1138)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1050)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath$JarLoader.findResource(URLClassPath.java:1020)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at sun.misc.URLClassPath.findResource(URLClassPath.java:215)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader$2.run(URLClassLoader.java:569)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader$2.run(URLClassLoader.java:567)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader.findResource(URLClassLoader.java:566)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.lang.ClassLoader.getResource(ClassLoader.java:1096)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.net.URLClassLoader.getResourceAsStream(URLClassLoader.java:232)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.lang.Class.getResourceAsStream(Class.java:2223)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.util.XMLUtilities.findEntity(XMLUtilities.java:180)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.PerspectiveManager$PerspectiveHandler.resolveEntity(PerspectiveManager.java:282)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.util.EntityResolverWrapper.resolveEntity(EntityResolverWrapper.java:110)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntityAsPerStax(XMLEntityManager.java:997)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1151)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1045)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:959)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.util.XMLUtilities.parseXML(XMLUtilities.java:140)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.SettingsXML.load(SettingsXML.java:155)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.PerspectiveManager.loadPerspective(PerspectiveManager.java:104)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:210)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at org.gjt.sp.jedit.gui.tray.JEditSwingTrayIcon$MyMouseAdapter.mouseClicked(JEditSwingTrayIcon.java:115)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.processMouseEvent(TrayIcon.java:757)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.processEvent(TrayIcon.java:731)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.TrayIcon.dispatchEvent(TrayIcon.java:722)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:763)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:53:50 PM [AWT-EventQueue-0] [error] XMLUtilities:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager: java.io.FileNotFoundException: /Users/brandonburr/Desktop/jEdit/perspective.dtd (No such file or directory)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.open0(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.open(FileInputStream.java:195)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1304)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1270)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:264)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1161)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1045)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:959)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.util.XMLUtilities.parseXML(XMLUtilities.java:140)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.SettingsXML.load(SettingsXML.java:155)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.PerspectiveManager.loadPerspective(PerspectiveManager.java:104)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:210)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at org.gjt.sp.jedit.gui.tray.JEditSwingTrayIcon$MyMouseAdapter.mouseClicked(JEditSwingTrayIcon.java:115)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.processMouseEvent(TrayIcon.java:757)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.processEvent(TrayIcon.java:731)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.TrayIcon.dispatchEvent(TrayIcon.java:722)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:763)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.access$500(EventQueue.java:97)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$3.run(EventQueue.java:709)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$3.run(EventQueue.java:703)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$4.run(EventQueue.java:731)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue$4.run(EventQueue.java:729)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.AccessController.doPrivileged(Native Method)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+7:53:50 PM [AWT-EventQueue-0] [error] PerspectiveManager:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:50 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:53:50 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:53:50 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:53:50 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:53:51 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:52 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+7:53:53 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:53:53 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:53 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:55 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:53:55 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+7:53:56 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+7:53:56 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+7:53:56 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:53:56 PM [AWT-EventQueue-0] [debug] BufferSet: 1434587110: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+7:53:56 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/jEdit/) is in no bufferSet anymore, closing it
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+7:53:56 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+7:53:56 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+7:53:56 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+7:53:56 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+7:53:56 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
+7:53:58 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=null]
+7:53:58 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+7:53:58 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:53:58 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:53:58 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:53:58 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+7:53:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+7:53:58 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+7:53:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+7:53:58 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"

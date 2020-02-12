@@ -1557,6 +1557,7 @@ public class GUIUtilities
 				{
 					panel.add(new JLabel(str.substring(lastOffset,index)));
 					lastOffset = index + 1;
+					
 				}
 			}
 
