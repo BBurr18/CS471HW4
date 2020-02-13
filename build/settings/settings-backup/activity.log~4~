@@ -1,134 +1,138 @@
-Log file created on Tue Feb 11 09:31:45 MST 2020
+Log file created on Wed Feb 12 20:51:26 MST 2020
 IMPORTANT:
 Because updating this file after every log message would kill
 performance, it will be *incomplete* unless you invoke the
 Utilities->Troubleshooting->Update Activity Log on Disk command!
-9:31:42 AM [main] [message] Log: When reporting bugs, please include the following information:
-9:31:42 AM [main] [message] Log: java.version=1.8.0_144
-9:31:42 AM [main] [message] Log: java.vm.version=25.144-b01
-9:31:42 AM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-9:31:42 AM [main] [message] Log: java.runtime.version=1.8.0_144-b01
-9:31:42 AM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
-9:31:42 AM [main] [message] Log: java.vendor=Oracle Corporation
-9:31:42 AM [main] [message] Log: java.compiler=null
-9:31:42 AM [main] [message] Log: os.name=Mac OS X
-9:31:42 AM [main] [message] Log: os.version=10.14.6
-9:31:42 AM [main] [message] Log: os.arch=x86_64
-9:31:42 AM [main] [message] Log: user.home=/Users/brandonburr
-9:31:42 AM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
-9:31:42 AM [main] [message] Log: java.class.path=/Users/brandonburr/Desktop/jEdit/build/jedit.jar
-9:31:42 AM [main] [message] jEdit: starting with command line arguments: -settings=/Users/brandonburr/Desktop/jEdit/build/settings
-9:31:42 AM [main] [debug] jEdit: before splash screen activation:59 ms
-9:31:45 AM [main] [debug] jEdit: after splash screen activation:3594 ms
-9:31:45 AM [main] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/activity.log" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/activity.log~1~"
-9:31:45 AM [main] [notice] jEdit: jEdit version 5.5.0
-9:31:45 AM [main] [message] jEdit: Settings directory is /Users/brandonburr/Desktop/jEdit/build/settings
-9:31:45 AM [main] [message] jEdit: jEdit home directory is /Users/brandonburr/Desktop/jEdit/build
-9:31:45 AM [main] [debug] SplashScreen: init:43/3170ms
-9:31:45 AM [main] [debug] SplashScreen: init system properties:25/3195ms
-9:31:45 AM [main] [message] BeanShell: Beanshell Init
-9:31:45 AM [main] [debug] SplashScreen: init beanshell:114/3309ms
-9:31:45 AM [main] [debug] SplashScreen: loading site properties:6/3315ms
-9:31:45 AM [main] [debug] SplashScreen: loading user properties:10/3325ms
-9:31:45 AM [main] [debug] GUIUtilities: Icon theme set to: tango
-9:31:45 AM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
-9:31:45 AM [main] [debug] SplashScreen: init GUI:7/3332ms
-9:31:45 AM [main] [debug] EditServer: jEdit server started on port 62515
-9:31:45 AM [main] [debug] EditServer: Authorization key is 1969473911
-9:31:45 AM [main] [debug] SplashScreen: init server:172/3504ms
-9:31:45 AM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
-9:31:45 AM [main] [debug] SplashScreen: init look and feel:10/3514ms
-9:31:45 AM [main] [debug] SplashScreen: init VFS Manager:3/3517ms
-9:31:45 AM [main] [debug] ActionSet: Loading actions from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
-9:31:46 AM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
-9:31:46 AM [main] [debug] SplashScreen: init resources:238/3755ms
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
-9:31:46 AM [main] [debug] SplashScreen: Migrate keymaps:177/3932ms
-9:31:46 AM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/jars
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-9:31:46 AM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/settings/jars
-9:31:46 AM [main] [debug] SplashScreen: init plugins:37/3969ms
-9:31:46 AM [main] [message] HistoryModel: Loading history
-9:31:46 AM [main] [debug] SplashScreen: init history model:6/3975ms
-9:31:46 AM [main] [message] BufferHistory: Loading /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
-9:31:46 AM [main] [debug] SplashScreen: init buffer history:10/3985ms
-9:31:46 AM [main] [message] KillRing: Loading /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
-9:31:46 AM [main] [debug] SplashScreen: init killring:20/4005ms
-9:31:46 AM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
-9:31:46 AM [main] [debug] jEdit: SOCKS proxy disabled
-9:31:46 AM [main] [debug] jEdit: HTTP proxy disabled
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
-9:31:46 AM [main] [debug] SplashScreen: init various properties:115/4120ms
-9:31:46 AM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/modes/catalog
-9:31:46 AM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/settings/modes/catalog
-9:31:46 AM [main] [debug] SplashScreen: init modes:67/4187ms
-9:31:46 AM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
-9:31:46 AM [main] [debug] PluginJAR: Opening /Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar
-9:31:46 AM [main] [debug] SplashScreen: activate plugins:23/4210ms
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
-9:31:46 AM [main] [debug] Macros: Registered beanshell macro handler
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-9:31:46 AM [main] [debug] SplashScreen: init macros:32/4242ms
-9:31:46 AM [main] [message] BeanShell: Running script /Users/brandonburr/Desktop/jEdit/build/startup/startup.bsh
-9:31:46 AM [main] [notice] jEdit$5: Loading edit mode /Users/brandonburr/Desktop/jEdit/build/modes/text.xml
-9:31:46 AM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
-9:31:46 AM [main] [debug] SplashScreen: run startup scripts:213/4455ms
-9:31:46 AM [main] [debug] SplashScreen: run startup scripts:2/4457ms
-9:31:46 AM [main] [debug] SplashScreen: run startup scripts:4/4459ms
-9:31:46 AM [main] [debug] jEdit: main done:4950 ms
-9:31:46 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:31:46 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:31:47 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
-9:31:47 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
-9:31:47 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
-9:31:47 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
-9:31:47 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
-9:31:47 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758 addBufferAt(Untitled-1 (~/Desktop/jEdit/),0)
-9:31:47 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758 addBufferAt(Untitled-1 (~/Desktop/jEdit/),1)
-9:31:47 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
-9:31:47 AM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
-9:31:47 AM [AWT-EventQueue-0] [message] jEdit: Startup complete: 5829 ms
-9:32:16 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
-9:38:43 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-9:38:43 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-9:38:43 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
-9:38:45 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
-9:38:45 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758: Buffer removed Untitled-1 (~/Desktop/jEdit/)
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
-9:38:45 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
-9:38:45 AM [AWT-EventQueue-0] [debug] BufferSet: 648281758: Buffer removed Untitled-1 (~/Desktop/jEdit/)
-9:38:45 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/jEdit/) is in no bufferSet anymore, closing it
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
-9:38:45 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
-9:38:45 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
-9:38:45 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
-9:38:45 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
-9:38:45 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
-9:38:50 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=null]
-9:38:50 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
-9:38:50 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
-9:38:50 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
-9:38:50 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-9:38:50 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
-9:38:50 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
-9:38:50 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
-9:38:50 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
-9:38:50 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
+8:51:22 PM [main] [message] Log: When reporting bugs, please include the following information:
+8:51:22 PM [main] [message] Log: java.version=1.8.0_144
+8:51:22 PM [main] [message] Log: java.vm.version=25.144-b01
+8:51:22 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+8:51:22 PM [main] [message] Log: java.runtime.version=1.8.0_144-b01
+8:51:22 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+8:51:22 PM [main] [message] Log: java.vendor=Oracle Corporation
+8:51:22 PM [main] [message] Log: java.compiler=null
+8:51:22 PM [main] [message] Log: os.name=Mac OS X
+8:51:22 PM [main] [message] Log: os.version=10.14.6
+8:51:22 PM [main] [message] Log: os.arch=x86_64
+8:51:22 PM [main] [message] Log: user.home=/Users/brandonburr
+8:51:22 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+8:51:22 PM [main] [message] Log: java.class.path=/Users/brandonburr/Desktop/jEdit/build/jedit.jar
+8:51:22 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/brandonburr/Desktop/jEdit/build/settings
+8:51:22 PM [main] [debug] jEdit: before splash screen activation:54 ms
+8:51:26 PM [main] [debug] jEdit: after splash screen activation:4521 ms
+8:51:26 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/activity.log" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/activity.log~1~"
+8:51:26 PM [main] [notice] jEdit: jEdit version 5.5.0
+8:51:26 PM [main] [message] jEdit: Settings directory is /Users/brandonburr/Desktop/jEdit/build/settings
+8:51:27 PM [main] [message] jEdit: jEdit home directory is /Users/brandonburr/Desktop/jEdit/build
+8:51:27 PM [main] [debug] SplashScreen: init:104/4159ms
+8:51:27 PM [main] [debug] SplashScreen: init system properties:27/4186ms
+8:51:27 PM [main] [message] BeanShell: Beanshell Init
+8:51:27 PM [main] [debug] SplashScreen: init beanshell:67/4253ms
+8:51:27 PM [main] [debug] SplashScreen: loading site properties:3/4256ms
+8:51:27 PM [main] [debug] SplashScreen: loading user properties:5/4261ms
+8:51:27 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+8:51:27 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+8:51:27 PM [main] [debug] SplashScreen: init GUI:11/4272ms
+8:51:27 PM [main] [debug] EditServer: jEdit server started on port 49584
+8:51:27 PM [main] [debug] EditServer: Authorization key is 1864996738
+8:51:27 PM [main] [debug] SplashScreen: init server:69/4341ms
+8:51:27 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+8:51:27 PM [main] [debug] SplashScreen: init look and feel:8/4349ms
+8:51:27 PM [main] [debug] SplashScreen: init VFS Manager:3/4352ms
+8:51:27 PM [main] [debug] ActionSet: Loading actions from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+8:51:27 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/brandonburr/Desktop/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+8:51:27 PM [main] [debug] SplashScreen: init resources:109/4461ms
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+8:51:27 PM [main] [debug] SplashScreen: Migrate keymaps:53/4514ms
+8:51:27 PM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/jars
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+8:51:27 PM [main] [notice] jEdit: Loading plugins from /Users/brandonburr/Desktop/jEdit/build/settings/jars
+8:51:27 PM [main] [debug] SplashScreen: init plugins:31/4545ms
+8:51:27 PM [main] [message] HistoryModel: Loading history
+8:51:27 PM [main] [debug] SplashScreen: init history model:4/4549ms
+8:51:27 PM [main] [message] BufferHistory: Loading /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+8:51:27 PM [main] [debug] SplashScreen: init buffer history:6/4555ms
+8:51:27 PM [main] [message] KillRing: Loading /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+8:51:27 PM [main] [debug] SplashScreen: init killring:12/4567ms
+8:51:27 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+8:51:27 PM [main] [debug] jEdit: SOCKS proxy disabled
+8:51:27 PM [main] [debug] jEdit: HTTP proxy disabled
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+8:51:27 PM [main] [debug] SplashScreen: init various properties:118/4685ms
+8:51:27 PM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/modes/catalog
+8:51:27 PM [main] [message] jEdit: Loading mode catalog file /Users/brandonburr/Desktop/jEdit/build/settings/modes/catalog
+8:51:27 PM [main] [debug] SplashScreen: init modes:52/4737ms
+8:51:27 PM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
+8:51:27 PM [main] [debug] PluginJAR: Opening /Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar
+8:51:27 PM [main] [debug] SplashScreen: activate plugins:14/4751ms
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+8:51:27 PM [main] [debug] Macros: Registered beanshell macro handler
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+8:51:27 PM [main] [debug] SplashScreen: init macros:26/4777ms
+8:51:27 PM [main] [message] BeanShell: Running script /Users/brandonburr/Desktop/jEdit/build/startup/startup.bsh
+8:51:27 PM [main] [notice] jEdit$5: Loading edit mode /Users/brandonburr/Desktop/jEdit/build/modes/text.xml
+8:51:27 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+8:51:27 PM [main] [debug] SplashScreen: run startup scripts:184/4961ms
+8:51:27 PM [main] [debug] SplashScreen: run startup scripts:3/4964ms
+8:51:27 PM [main] [debug] SplashScreen: run startup scripts:3/4964ms
+8:51:27 PM [main] [debug] jEdit: main done:5463 ms
+8:51:27 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+8:51:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+8:51:28 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+8:51:28 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+8:51:28 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419 addBufferAt(Untitled-1 (~/Desktop/jEdit/),-1)
+8:51:28 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419: Buffer added Untitled-1 (~/Desktop/jEdit/) at 0
+8:51:28 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+8:51:28 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419 addBufferAt(Untitled-1 (~/Desktop/jEdit/),0)
+8:51:28 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419 addBufferAt(Untitled-1 (~/Desktop/jEdit/),1)
+8:51:28 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+8:51:28 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+8:51:28 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 6408 ms
+8:51:29 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:51:29 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+8:51:30 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:51:31 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+8:51:36 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:51:36 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:51:42 PM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+8:51:42 PM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+8:51:42 PM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+8:51:42 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/jEdit/)]
+8:51:42 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+8:51:42 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+8:51:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/history" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/history~1~"
+8:51:42 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+8:51:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+8:51:42 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+8:51:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+8:51:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"
+8:51:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:51:43 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+8:51:43 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:51:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+8:51:53 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+8:51:53 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+8:51:57 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+8:51:57 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "/Users/brandonburr/Desktop/jEdit/Untitled-1" to "/Users/brandonburr/Desktop/jEdit/#Untitled-1#"
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+8:52:47 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml
+8:52:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/perspective.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/perspective.xml~1~"
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+8:52:47 PM [AWT-EventQueue-0] [debug] BufferSet: 434929419: Buffer removed Untitled-1 (~/Desktop/jEdit/)
+8:52:47 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/jEdit/) is in no bufferSet anymore, closing it
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3,source=/Users/brandonburr/Desktop/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+8:52:47 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/Users/brandonburr/Desktop/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+8:52:47 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+8:52:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/history" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/history~1~"
+8:52:47 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/brandonburr/Desktop/jEdit/build/settings/recent.xml
+8:52:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/recent.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/recent.xml~1~"
+8:52:47 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/brandonburr/Desktop/jEdit/build/settings/killring.xml
+8:52:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/killring.xml" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/killring.xml~1~"
+8:52:47 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/brandonburr/Desktop/jEdit/build/settings/properties" to "/Users/brandonburr/Desktop/jEdit/build/settings/settings-backup/properties~1~"

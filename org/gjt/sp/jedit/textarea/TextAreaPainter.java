@@ -146,7 +146,8 @@ public class TextAreaPainter extends JComponent implements TabExpander
 	 */
 	public static final int HIGHEST_LAYER = Integer.MAX_VALUE;
 	//}}}
-
+	//brandon
+	public boolean notePadYes;
 	//{{{ setBounds() method
 	/**
 	 * It is a bad idea to override this, but we need to get the component
@@ -272,7 +273,11 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		textArea.chunkCache.reset();
 		repaint();
 	} //}}}
-
+	//brandon
+    public void setNotePad(boolean arg){
+		notePadYes = arg;
+	}
+	
 	//{{{ getCaretColor() method
 	/**
 	 * Returns the caret color.
@@ -1150,7 +1155,10 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				gfx.setColor(bgColor);
 				gfx.fillRect(0,y,getWidth(),getLineHeight());
 			} //}}}
-
+            if(notePadYes){
+				gfx.setColor(Color.BLUE);
+				gfx.fillRect(0,y,getWidth(),1);
+			}
 			//{{{ Paint token backgrounds
 			ChunkCache.LineInfo lineInfo = textArea.chunkCache.getLineInfo(screenLine);
 

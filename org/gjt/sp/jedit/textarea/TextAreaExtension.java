@@ -24,6 +24,7 @@ package org.gjt.sp.jedit.textarea;
 
 import java.awt.Graphics2D;
 
+
 /**
  * Subclasses of this class can perform custom painting and tool tip
  * handling in the text area and gutter.
@@ -67,6 +68,7 @@ public abstract class TextAreaExtension
 				paintInvalidLine(gfx,screenLine,y);
 			else
 			{
+				
 				paintValidLine(gfx,screenLine,physicalLines[i],
 					start[i],end[i],y);
 			}

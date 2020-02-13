@@ -990,6 +990,7 @@ public class EditPane extends JPanel implements BufferSetListener
 			bufferSwitcher.setMaximumRowCount(jEdit.getIntegerProperty(
 				"bufferSwitcher.maxRowCount",10));
 		}
+	
 	} //}}}
 
 	//{{{ initPainter() method
@@ -1042,7 +1043,8 @@ public class EditPane extends JPanel implements BufferSetListener
 			"view.selectionFgColor"));
 		painter.setSelectionFgColorEnabled(jEdit.getBooleanProperty(
 			"view.selectionFg"));
-
+			//Brandon
+		painter.setNotePad(jEdit.getBooleanProperty("notepadOption"));
 		String defaultFont = jEdit.getProperty("view.font");
 		int defaultFontSize = jEdit.getIntegerProperty("view.fontsize",12);
 		painter.setStyles(SyntaxUtilities.loadStyles(defaultFont,defaultFontSize));
@@ -1274,6 +1276,7 @@ public class EditPane extends JPanel implements BufferSetListener
 		public void paintValidLine(Graphics2D gfx, int screenLine,
 			int physicalLine, int start, int end, int y)
 		{
+			
 			if(isMarkerHighlightEnabled())
 			{
 				Buffer buffer = (Buffer)textArea.getBuffer();

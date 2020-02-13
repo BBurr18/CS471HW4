@@ -27,6 +27,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.*;
+import javax.swing.JComponent;
 import org.gjt.sp.jedit.textarea.AntiAlias;
 import org.gjt.sp.util.GenericGUIUtilities;
 import org.gjt.sp.jedit.jEdit;

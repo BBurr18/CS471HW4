@@ -4,13 +4,13 @@
 /Users/brandonburr/Desktop
 /Users/brandonburr/Desktop/jEdit
 [action]
+insert-newline-indent
 global-options
-prev-char
+prev-line
+backspace
 next-char
 next-line
-prev-line
-insert-newline-indent
-backspace
+prev-char
 new-file
 select-next-paragraph
 select-next-word
